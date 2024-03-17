@@ -61,3 +61,8 @@ function scrollToNextPage() {
     behavior: 'smooth'
   });
 }
+
+// Reset scroll position on page refresh
+window.onload = function() {
+  window.scrollTo(0, 0);
+};
