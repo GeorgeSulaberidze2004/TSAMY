@@ -42,3 +42,14 @@ document.getElementById("closeNav").addEventListener("click", function() {
         el.classList.add("overlay-hidden");
     });
 });
+
+
+
+
+
+function scrollToNextPage() {
+  window.scrollBy({
+    top: window.innerHeight,
+    behavior: 'smooth'
+  });
+}
