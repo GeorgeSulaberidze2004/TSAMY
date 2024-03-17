@@ -48,18 +48,16 @@ document.getElementById("closeNav").addEventListener("click", function() {
 
 
 function scrollToNextPage() {
-  // Calculate the height of the viewport
-  const viewportHeight = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+  // Get the height of the viewport
+  const viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
-  // Calculate the current scroll position
-  const currentPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-
-  // Calculate the target scroll position (scrolling down by the height of the viewport)
-  const targetPosition = currentPosition + viewportHeight;
+  // Calculate the target position (scrolling down by the height of the viewport)
+  const targetPosition = viewportHeight;
 
   // Animate the scroll to the target position
   window.scrollTo({
     top: targetPosition,
+    left: 0,
     behavior: 'smooth'
   });
 }
