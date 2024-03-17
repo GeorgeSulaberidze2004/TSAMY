@@ -552,7 +552,7 @@ top: 10px;
   position: absolute;
   right: 0;
   font-size: 30px;
-  font-family: monospace;
+  font-family: monospace, Arial, sans-serif;
 }
 .page-footer p, .page-footer a {
   font-size: 11px;
