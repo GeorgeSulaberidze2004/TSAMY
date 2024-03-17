@@ -48,21 +48,6 @@ document.getElementById("closeNav").addEventListener("click", function() {
 
 
 function scrollToNextPage() {
-  // Get the height of the viewport
-  const viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-
-  // Calculate the target position (scrolling down by the height of the viewport)
-  const targetPosition = viewportHeight;
-
-  // Animate the scroll to the target position
-  window.scrollTo({
-    top: targetPosition,
-    left: 0,
-    behavior: 'smooth'
-  });
+  const scrollTarget = document.getElementById('scrollTarget');
+  scrollTarget.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
-
-// Reset scroll position on page refresh
-window.onload = function() {
-  window.scrollTo(0, 0);
-};
