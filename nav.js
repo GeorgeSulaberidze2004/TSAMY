@@ -25,3 +25,20 @@ setTimeout(() => {
     document.querySelector('.sidebar').classList.remove('show-sidebar');
     document.querySelector('.overlay').classList.remove('show-overlay');
   });
+
+  
+
+
+
+ 
+  document.getElementById("menuBtn").addEventListener("click", function() {
+    document.querySelectorAll(".omnichannel__overlay, .header__overlay").forEach(function(el) {
+        el.classList.remove("overlay-hidden");
+    });
+});
+
+document.getElementById("closeNav").addEventListener("click", function() {
+    document.querySelectorAll(".omnichannel__overlay, .header__overlay").forEach(function(el) {
+        el.classList.add("overlay-hidden");
+    });
+});
