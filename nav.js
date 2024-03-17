@@ -47,7 +47,4 @@ document.getElementById("closeNav").addEventListener("click", function() {
 
 
 
-function scrollToNextPage() {
-  const scrollTarget = document.getElementById('scrollTarget');
-  scrollTarget.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
+
