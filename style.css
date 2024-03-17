@@ -419,8 +419,8 @@ font-size: 5px;
 }
 
 .sidebarpages #chevron{
- height: 24px;
- width: 24px;
+ height: 20px;
+ width: 17px;
  position: absolute;
  right: 0;
  margin-top: 8px;
@@ -542,8 +542,8 @@ top: 10px;
   padding: 15px 1px;
 }
 .sidebarpages #chevron{
-  height: 24px;
-  width: 24px;
+  height: 20px;
+  width: 17px;
   position: absolute;
   right: 0;
   margin-top: 8px;
