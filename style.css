@@ -488,6 +488,7 @@ top: 10px;
 }
 
 .language {
+  width: 70px;
   color:black;	
   font-weight: 500;
   border-radius: 20px;
@@ -518,6 +519,7 @@ top: 10px;
 }
 
 .language {
+  width: 70px;
   color:black;	
   font-weight: 500;
   border-radius: 20px;
