@@ -488,14 +488,14 @@ top: 10px;
 }
 
 .language {
-    width: 50px;
+    width: 60px;
     color: black;
     font-weight: 500;
     border-radius: 20px;
     border-color: black;
     background-color: transparent;
     font-size: 14px;
-    padding-left: 23px; Adjust the padding to ensure the text doesn't overlap with the icon */
+    padding-left: 20px; Adjust the padding to ensure the text doesn't overlap with the icon */
 }
 
 
@@ -519,14 +519,14 @@ top: 10px;
 }
 
 .language {
-    width: 60px;
+    width: 50px;
     color: black;
     font-weight: 500;
     border-radius: 20px;
     border-color: black;
     background-color: transparent;
     font-size: 14px;
-    padding-left: 20px; /* Adjust the padding to ensure the text doesn't overlap with the icon */
+    padding-left: 23px; /* Adjust the padding to ensure the text doesn't overlap with the icon */
 }
 
   .nav-container {
