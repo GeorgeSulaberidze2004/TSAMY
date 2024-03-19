@@ -495,7 +495,7 @@ top: 10px;
     border-color: black;
     background-color: transparent;
     font-size: 14px;
-    padding-left: 24px; Adjust the padding to ensure the text doesn't overlap with the icon */
+    padding-left: 23px; Adjust the padding to ensure the text doesn't overlap with the icon */
 }
 
 
@@ -526,7 +526,7 @@ top: 10px;
     border-color: black;
     background-color: transparent;
     font-size: 14px;
-    padding-left: 24px; /* Adjust the padding to ensure the text doesn't overlap with the icon */
+    padding-left: 23px; /* Adjust the padding to ensure the text doesn't overlap with the icon */
 }
 
   .nav-container {
