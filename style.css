@@ -471,6 +471,29 @@ top: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
 }
+.languagebox {
+  
+  margin-top: 5px;
+  font-size: 16px;
+  position: relative;
+  display: inline-block; /* Ensures the container only takes as much width as necessary */
+}
+
+.languagebox i {
+  
+  position: absolute;
+  top: 53%;
+  left: 8px; /* Adjust the position of the globe icon as needed */
+  transform: translateY(-50%);
+}
+
+.language {
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 14px;
+  padding-left: 25px; /* Adjust the padding to ensure the text doesn't overlap with the icon */
+}
 
 
 @media (max-width: 477px) {
