@@ -483,7 +483,7 @@ top: 10px;
   
   position: absolute;
   top: 53%;
-  left: 8px; /* Adjust the position of the globe icon as needed */
+  left: 5px; /* Adjust the position of the globe icon as needed */
   transform: translateY(-50%);
 }
 
@@ -513,7 +513,7 @@ top: 10px;
   
   position: absolute;
   top: 53%;
-  left: 8px; /* Adjust the position of the globe icon as needed */
+  left: 5px; /* Adjust the position of the globe icon as needed */
   transform: translateY(-50%);
 }
 
@@ -521,6 +521,7 @@ top: 10px;
   color:black;	
   font-weight: 500;
   border-radius: 20px;
+  border-color: black;
   background-color: transparent;
   font-size: 14px;
   padding-left: 25px; /* Adjust the padding to ensure the text doesn't overlap with the icon */
