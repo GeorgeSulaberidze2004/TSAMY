@@ -420,6 +420,20 @@ background-color: #ffffffc6 ;
   padding: 10px 1px;
 }
 
+.sidebarpages2{
+  font-size: 20px;
+  display: block;
+  margin: 30px 0;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  border-bottom: 1px solid #0000004c;
+  font-weight: 700;
+  font-family: 'nino_mtavruli';
+  text-transform: uppercase;
+  padding: 15px 1px;
+}
+
 #sidebarlogos{
 font-size: 5px;
 
@@ -434,7 +448,14 @@ font-size: 5px;
  vertical-align: middle;
 }
 
-
+.sidebarpages2 #chevron{
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 0;
+  margin-top: -3px;
+  vertical-align: middle;
+ }
 
 .overlay {
   position: fixed;
@@ -603,6 +624,18 @@ top: 10px;
   position: relative;
   padding: 15px 1px;
 }
+.sidebarpages2{
+  font-size: 19px;
+  display: block;
+  margin: 30px 0;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  padding: 15px 1px;
+  font-family: 'nino_mtavruli';
+  font-weight: 700;
+
+}
 .sidebarpages #chevron{
   height: 20px;
   width: 17px;
@@ -611,7 +644,13 @@ top: 10px;
   margin-top: 8px;
   vertical-align: middle;
  }
- 
+ .sidebarpages2 #chevron{
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 0;
+  vertical-align: middle;
+ }
 .page-footer p, .page-footer a {
   font-size: 11px;
   color: #fff;
@@ -656,6 +695,19 @@ top: 10px;
 }
 .sidebarpages{
   font-size: 15px;
+} 
+
+.sidebarpages2{
+  font-size: 13px;
+  margin: 10px 0;
+}
+.sidebarpages2 #chevron {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  right: 0;
+  
+  vertical-align: middle;
 }
 .bx-exit::before{
   font-size: 25px;
