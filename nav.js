@@ -47,6 +47,8 @@ document.getElementById("closeNav").addEventListener("click", function() {
 
 
 
+
+
 document.addEventListener('DOMContentLoaded', function () {
   // Function to smoothly scroll to the next page
   function smoothScrollToNextPage() {
@@ -64,3 +66,14 @@ document.addEventListener('DOMContentLoaded', function () {
       smoothScrollToNextPage();
   });
 });
+
+
+
+
+
+
+
+
+
+
+
