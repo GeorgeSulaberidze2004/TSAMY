@@ -448,7 +448,7 @@ font-size: 5px;
  vertical-align: middle;
 }
 
-.sidebarpages2 #chevron{
+.sidebarpages2 #chevron2{
   height: 20px;
   width: 17px;
   position: absolute;
@@ -644,7 +644,7 @@ top: 10px;
   margin-top: 8px;
   vertical-align: middle;
  }
- .sidebarpages2 #chevron{
+ .sidebarpages2 #chevron2{
     height: 20px;
   width: 17px;
   position: absolute;
@@ -701,7 +701,7 @@ top: 10px;
   font-size: 13px;
   margin: 10px 0;
 }
-.sidebarpages2 #chevron {
+.sidebarpages2 #chevron2 {
   height: 15px;
   width: 15px;
   position: absolute;
