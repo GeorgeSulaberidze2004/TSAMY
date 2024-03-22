@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
+@font-face {
+  font-family: 'nino_mtavruli';
+  src: url(/assets/fonts/bpg_nino_mtavruli_bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400
+}
+
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
